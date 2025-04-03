@@ -8,8 +8,8 @@ center_lat=47.567988
 center_lon=9.372969
 
 # size of the grid
-grid_width=1800
-grid_height=1800
+grid_width=18000
+grid_height=18000
 
 # number of cells in the grid
 rows=11

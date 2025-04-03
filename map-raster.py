@@ -3,7 +3,7 @@
 import simplekml
 from geopy.distance import geodesic
 
-def generate_grid_kml(center_lat, center_lon, grid_width, grid_height, rows, cols, square_size, output_file="grid.kml"):
+def generate_grid_kml(center_lat, center_lon, grid_width, grid_height, rows, cols, square_size, start_index=0, output_file="grid.kml"):
     kml = simplekml.Kml()
 
     # Berechnung der Zellengröße (inkl. Leerraum)
@@ -27,9 +27,14 @@ def generate_grid_kml(center_lat, center_lon, grid_width, grid_height, rows, col
             bottom_left = geodesic(meters=square_size).destination((top_left.latitude, top_left.longitude), bearing=180)
             bottom_right = geodesic(meters=square_size).destination((top_right.latitude, top_right.longitude), bearing=180)
 
+            # Placemark hinzufügen (Textlabel verschoben nach Süden)
+            # Verschiebe das Textlabel um die halbe Quadratgröße nach Süden
+            label_offset = geodesic(meters=square_size).destination((cell_center.latitude, cell_center.longitude), bearing=180)
+
+            cell_name = f"Position {c+start_index},{r+start_index}"
             # Füge ein Polygon hinzu
             pol = kml.newpolygon(
-                name=f"Cell {r},{c}",
+                name=cell_name,
                 outerboundaryis=[
                     (top_left.longitude, top_left.latitude),
                     (top_right.longitude, top_right.latitude),
@@ -38,10 +43,20 @@ def generate_grid_kml(center_lat, center_lon, grid_width, grid_height, rows, col
                     (top_left.longitude, top_left.latitude),  # Abschluss des Polygons
                 ]
             )
-            pol.style.polystyle.color = simplekml.Color.changealphaint(100, simplekml.Color.blue)  # Transparente blaue Füllung
+            pol.style.polystyle.color = simplekml.Color.changealphaint(180, simplekml.Color.red)  # 180 = 70% Deckkraft
+
+            # Placemark hinzufügen (Textlabel)
+            placemark = kml.newpoint(
+                name=f"{c+start_index},{r+start_index}",
+                coords=[(label_offset.longitude, label_offset.latitude)]  # Textlabel verschoben nach Süden
+            )
+            placemark.style.labelstyle.color = simplekml.Color.red  # Textfarbe (optional)
+            placemark.style.labelstyle.scale = 1.5  # Textgröße (optional)
 
     kml.save(output_file)
     print(f"KML-Datei gespeichert: {output_file}")
 
 # Beispielaufruf: 12x12 Quadrate (20m Kantenlänge) in einem 2000x2000m Raster, zentriert auf die Koordinaten
-generate_grid_kml(center_lat=47.568111, center_lon=9.370741, grid_width=2000, grid_height=2000, rows=12, cols=12, square_size=20)
+# generate_grid_kml(center_lat=47.568111, center_lon=9.370741, grid_width=2000, grid_height=2000, rows=12, cols=12, square_size=20)
+
+generate_grid_kml(center_lat=47.567988, center_lon=9.372969, grid_width=1800, grid_height=1800, rows=11, cols=11, square_size=50, start_index=2)

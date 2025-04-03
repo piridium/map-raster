@@ -3,6 +3,26 @@
 import simplekml
 from geopy.distance import geodesic
 
+# center point
+center_lat=47.567988
+center_lon=9.372969
+
+# size of the grid
+grid_width=1800
+grid_height=1800
+
+# number of cells in the grid
+rows=11
+cols=11
+
+# cell size
+square_size=50
+
+# start index for naming (here we use two so that we can roll a double dice)
+start_index=2
+
+
+
 def generate_grid_kml(center_lat, center_lon, grid_width, grid_height, rows, cols, square_size, start_index=0, output_file="grid.kml"):
     kml = simplekml.Kml()
 
@@ -56,7 +76,4 @@ def generate_grid_kml(center_lat, center_lon, grid_width, grid_height, rows, col
     kml.save(output_file)
     print(f"KML-Datei gespeichert: {output_file}")
 
-# Beispielaufruf: 12x12 Quadrate (20m Kantenlänge) in einem 2000x2000m Raster, zentriert auf die Koordinaten
-# generate_grid_kml(center_lat=47.568111, center_lon=9.370741, grid_width=2000, grid_height=2000, rows=12, cols=12, square_size=20)
-
-generate_grid_kml(center_lat=47.567988, center_lon=9.372969, grid_width=1800, grid_height=1800, rows=11, cols=11, square_size=50, start_index=2)
+generate_grid_kml(center_lat, center_lon, grid_width, grid_height, rows, cols, square_size, start_index)

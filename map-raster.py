@@ -2,26 +2,26 @@
 
 import simplekml
 from geopy.distance import geodesic
+import datetime
+from lxml import etree
 
 # center point
-center_lat=47.567988
-center_lon=9.372969
+center_lat = 47.567988
+center_lon = 9.372969
 
 # size of the grid
-grid_width=1800
-grid_height=1800
+grid_width = 1800
+grid_height = 1800
 
 # number of cells in the grid
-rows=11
-cols=11
+rows = 11
+cols = 11
 
 # cell size
-square_size=50
+square_size = 50
 
 # start index for naming (here we use two so that we can roll a double dice)
-start_index=2
-
-
+start_index = 2
 
 def generate_grid_kml(center_lat, center_lon, grid_width, grid_height, rows, cols, square_size, start_index=0, output_file="grid.kml"):
     kml = simplekml.Kml()
@@ -48,7 +48,6 @@ def generate_grid_kml(center_lat, center_lon, grid_width, grid_height, rows, col
             bottom_right = geodesic(meters=square_size).destination((top_right.latitude, top_right.longitude), bearing=180)
 
             # Placemark hinzufügen (Textlabel verschoben nach Süden)
-            # Verschiebe das Textlabel um die halbe Quadratgröße nach Süden
             label_offset = geodesic(meters=square_size).destination((cell_center.latitude, cell_center.longitude), bearing=180)
 
             cell_name = f"Position {c+start_index},{r+start_index}"
@@ -71,9 +70,35 @@ def generate_grid_kml(center_lat, center_lon, grid_width, grid_height, rows, col
                 coords=[(label_offset.longitude, label_offset.latitude)]  # Textlabel verschoben nach Süden
             )
             placemark.style.labelstyle.color = simplekml.Color.red  # Textfarbe (optional)
-            placemark.style.labelstyle.scale = 1.5  # Textgröße (optional)
+            placemark.style.labelstyle.scale = 1  # Textgröße (optional)
 
+    # Speichern des KML und Laden der Datei als XML
     kml.save(output_file)
-    print(f"KML-Datei gespeichert: {output_file}")
+
+    # Hinzufügen der Metadaten als Kommentar im KML
+    tree = etree.parse(output_file)
+    root = tree.getroot()
+
+    metadata_comment = f"""
+        Center Latitude: {center_lat}
+        Center Longitude: {center_lon}
+        Grid Width: {grid_width} meters
+        Grid Height: {grid_height} meters
+        Rows: {rows}
+        Columns: {cols}
+        Square Size: {square_size} meters
+        Start Index: {start_index}
+        Generated on: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
+    """
+
+    # Füge Kommentar zum XML-Root-Element hinzu
+    comment = etree.Comment(metadata_comment)
+    root.insert(0, comment)
+
+    # Speichere die KML-Datei nach dem Hinzufügen des Kommentars
+    tree.write(output_file, pretty_print=True, xml_declaration=True, encoding="UTF-8")
+
+    print(f"KML-Datei mit Metadaten gespeichert: {output_file}")
+
 
 generate_grid_kml(center_lat, center_lon, grid_width, grid_height, rows, cols, square_size, start_index)

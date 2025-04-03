@@ -1,6 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
-    <Document id="1">
+    <!--
+        Center Latitude: 47.567988
+        Center Longitude: 9.372969
+        Grid Width: 1800 meters
+        Grid Height: 1800 meters
+        Rows: 11
+        Columns: 11
+        Square Size: 50 meters
+        Start Index: 2
+        Generated on: 2025-04-03 17:34:26
+    --><Document id="1">
         <Style id="6">
             <PolyStyle id="7">
                 <color>b40000ff</color>
@@ -13,7 +23,7 @@
             <LabelStyle id="11">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="16">
@@ -28,7 +38,7 @@
             <LabelStyle id="21">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="26">
@@ -43,7 +53,7 @@
             <LabelStyle id="31">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="36">
@@ -58,7 +68,7 @@
             <LabelStyle id="41">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="46">
@@ -73,7 +83,7 @@
             <LabelStyle id="51">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="56">
@@ -88,7 +98,7 @@
             <LabelStyle id="61">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="66">
@@ -103,7 +113,7 @@
             <LabelStyle id="71">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="76">
@@ -118,7 +128,7 @@
             <LabelStyle id="81">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="86">
@@ -133,7 +143,7 @@
             <LabelStyle id="91">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="96">
@@ -148,7 +158,7 @@
             <LabelStyle id="101">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="106">
@@ -163,7 +173,7 @@
             <LabelStyle id="111">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="116">
@@ -178,7 +188,7 @@
             <LabelStyle id="121">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="126">
@@ -193,7 +203,7 @@
             <LabelStyle id="131">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="136">
@@ -208,7 +218,7 @@
             <LabelStyle id="141">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="146">
@@ -223,7 +233,7 @@
             <LabelStyle id="151">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="156">
@@ -238,7 +248,7 @@
             <LabelStyle id="161">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="166">
@@ -253,7 +263,7 @@
             <LabelStyle id="171">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="176">
@@ -268,7 +278,7 @@
             <LabelStyle id="181">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="186">
@@ -283,7 +293,7 @@
             <LabelStyle id="191">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="196">
@@ -298,7 +308,7 @@
             <LabelStyle id="201">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="206">
@@ -313,7 +323,7 @@
             <LabelStyle id="211">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="216">
@@ -328,7 +338,7 @@
             <LabelStyle id="221">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="226">
@@ -343,7 +353,7 @@
             <LabelStyle id="231">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="236">
@@ -358,7 +368,7 @@
             <LabelStyle id="241">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="246">
@@ -373,7 +383,7 @@
             <LabelStyle id="251">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="256">
@@ -388,7 +398,7 @@
             <LabelStyle id="261">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="266">
@@ -403,7 +413,7 @@
             <LabelStyle id="271">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="276">
@@ -418,7 +428,7 @@
             <LabelStyle id="281">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="286">
@@ -433,7 +443,7 @@
             <LabelStyle id="291">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="296">
@@ -448,7 +458,7 @@
             <LabelStyle id="301">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="306">
@@ -463,7 +473,7 @@
             <LabelStyle id="311">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="316">
@@ -478,7 +488,7 @@
             <LabelStyle id="321">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="326">
@@ -493,7 +503,7 @@
             <LabelStyle id="331">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="336">
@@ -508,7 +518,7 @@
             <LabelStyle id="341">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="346">
@@ -523,7 +533,7 @@
             <LabelStyle id="351">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="356">
@@ -538,7 +548,7 @@
             <LabelStyle id="361">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="366">
@@ -553,7 +563,7 @@
             <LabelStyle id="371">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="376">
@@ -568,7 +578,7 @@
             <LabelStyle id="381">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="386">
@@ -583,7 +593,7 @@
             <LabelStyle id="391">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="396">
@@ -598,7 +608,7 @@
             <LabelStyle id="401">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="406">
@@ -613,7 +623,7 @@
             <LabelStyle id="411">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="416">
@@ -628,7 +638,7 @@
             <LabelStyle id="421">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="426">
@@ -643,7 +653,7 @@
             <LabelStyle id="431">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="436">
@@ -658,7 +668,7 @@
             <LabelStyle id="441">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="446">
@@ -673,7 +683,7 @@
             <LabelStyle id="451">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="456">
@@ -688,7 +698,7 @@
             <LabelStyle id="461">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="466">
@@ -703,7 +713,7 @@
             <LabelStyle id="471">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="476">
@@ -718,7 +728,7 @@
             <LabelStyle id="481">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="486">
@@ -733,7 +743,7 @@
             <LabelStyle id="491">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="496">
@@ -748,7 +758,7 @@
             <LabelStyle id="501">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="506">
@@ -763,7 +773,7 @@
             <LabelStyle id="511">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="516">
@@ -778,7 +788,7 @@
             <LabelStyle id="521">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="526">
@@ -793,7 +803,7 @@
             <LabelStyle id="531">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="536">
@@ -808,7 +818,7 @@
             <LabelStyle id="541">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="546">
@@ -823,7 +833,7 @@
             <LabelStyle id="551">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="556">
@@ -838,7 +848,7 @@
             <LabelStyle id="561">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="566">
@@ -853,7 +863,7 @@
             <LabelStyle id="571">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="576">
@@ -868,7 +878,7 @@
             <LabelStyle id="581">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="586">
@@ -883,7 +893,7 @@
             <LabelStyle id="591">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="596">
@@ -898,7 +908,7 @@
             <LabelStyle id="601">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="606">
@@ -913,7 +923,7 @@
             <LabelStyle id="611">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="616">
@@ -928,7 +938,7 @@
             <LabelStyle id="621">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="626">
@@ -943,7 +953,7 @@
             <LabelStyle id="631">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="636">
@@ -958,7 +968,7 @@
             <LabelStyle id="641">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="646">
@@ -973,7 +983,7 @@
             <LabelStyle id="651">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="656">
@@ -988,7 +998,7 @@
             <LabelStyle id="661">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="666">
@@ -1003,7 +1013,7 @@
             <LabelStyle id="671">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="676">
@@ -1018,7 +1028,7 @@
             <LabelStyle id="681">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="686">
@@ -1033,7 +1043,7 @@
             <LabelStyle id="691">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="696">
@@ -1048,7 +1058,7 @@
             <LabelStyle id="701">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="706">
@@ -1063,7 +1073,7 @@
             <LabelStyle id="711">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="716">
@@ -1078,7 +1088,7 @@
             <LabelStyle id="721">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="726">
@@ -1093,7 +1103,7 @@
             <LabelStyle id="731">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="736">
@@ -1108,7 +1118,7 @@
             <LabelStyle id="741">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="746">
@@ -1123,7 +1133,7 @@
             <LabelStyle id="751">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="756">
@@ -1138,7 +1148,7 @@
             <LabelStyle id="761">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="766">
@@ -1153,7 +1163,7 @@
             <LabelStyle id="771">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="776">
@@ -1168,7 +1178,7 @@
             <LabelStyle id="781">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="786">
@@ -1183,7 +1193,7 @@
             <LabelStyle id="791">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="796">
@@ -1198,7 +1208,7 @@
             <LabelStyle id="801">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="806">
@@ -1213,7 +1223,7 @@
             <LabelStyle id="811">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="816">
@@ -1228,7 +1238,7 @@
             <LabelStyle id="821">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="826">
@@ -1243,7 +1253,7 @@
             <LabelStyle id="831">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="836">
@@ -1258,7 +1268,7 @@
             <LabelStyle id="841">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="846">
@@ -1273,7 +1283,7 @@
             <LabelStyle id="851">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="856">
@@ -1288,7 +1298,7 @@
             <LabelStyle id="861">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="866">
@@ -1303,7 +1313,7 @@
             <LabelStyle id="871">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="876">
@@ -1318,7 +1328,7 @@
             <LabelStyle id="881">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="886">
@@ -1333,7 +1343,7 @@
             <LabelStyle id="891">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="896">
@@ -1348,7 +1358,7 @@
             <LabelStyle id="901">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="906">
@@ -1363,7 +1373,7 @@
             <LabelStyle id="911">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="916">
@@ -1378,7 +1388,7 @@
             <LabelStyle id="921">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="926">
@@ -1393,7 +1403,7 @@
             <LabelStyle id="931">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="936">
@@ -1408,7 +1418,7 @@
             <LabelStyle id="941">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="946">
@@ -1423,7 +1433,7 @@
             <LabelStyle id="951">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="956">
@@ -1438,7 +1448,7 @@
             <LabelStyle id="961">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="966">
@@ -1453,7 +1463,7 @@
             <LabelStyle id="971">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="976">
@@ -1468,7 +1478,7 @@
             <LabelStyle id="981">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="986">
@@ -1483,7 +1493,7 @@
             <LabelStyle id="991">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="996">
@@ -1498,7 +1508,7 @@
             <LabelStyle id="1001">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="1006">
@@ -1513,7 +1523,7 @@
             <LabelStyle id="1011">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="1016">
@@ -1528,7 +1538,7 @@
             <LabelStyle id="1021">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="1026">
@@ -1543,7 +1553,7 @@
             <LabelStyle id="1031">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="1036">
@@ -1558,7 +1568,7 @@
             <LabelStyle id="1041">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="1046">
@@ -1573,7 +1583,7 @@
             <LabelStyle id="1051">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="1056">
@@ -1588,7 +1598,7 @@
             <LabelStyle id="1061">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="1066">
@@ -1603,7 +1613,7 @@
             <LabelStyle id="1071">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="1076">
@@ -1618,7 +1628,7 @@
             <LabelStyle id="1081">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="1086">
@@ -1633,7 +1643,7 @@
             <LabelStyle id="1091">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="1096">
@@ -1648,7 +1658,7 @@
             <LabelStyle id="1101">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="1106">
@@ -1663,7 +1673,7 @@
             <LabelStyle id="1111">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="1116">
@@ -1678,7 +1688,7 @@
             <LabelStyle id="1121">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="1126">
@@ -1693,7 +1703,7 @@
             <LabelStyle id="1131">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="1136">
@@ -1708,7 +1718,7 @@
             <LabelStyle id="1141">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="1146">
@@ -1723,7 +1733,7 @@
             <LabelStyle id="1151">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="1156">
@@ -1738,7 +1748,7 @@
             <LabelStyle id="1161">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="1166">
@@ -1753,7 +1763,7 @@
             <LabelStyle id="1171">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="1176">
@@ -1768,7 +1778,7 @@
             <LabelStyle id="1181">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="1186">
@@ -1783,7 +1793,7 @@
             <LabelStyle id="1191">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="1196">
@@ -1798,7 +1808,7 @@
             <LabelStyle id="1201">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Style id="1206">
@@ -1813,7 +1823,7 @@
             <LabelStyle id="1211">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
-                <scale>1.5</scale>
+                <scale>1</scale>
             </LabelStyle>
         </Style>
         <Placemark id="3">
